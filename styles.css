@@ -1,0 +1,145 @@
+a{
+text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+img{
+    display: block;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+background-color: #0E0E0E;
+}
+.container{
+width: 1203px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.logo{
+    color: #FFF;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+}
+.menu-link{
+    color: #FFF;
+        /* P 16 */
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: 0.03em;
+        padding: 33px 0;
+        display: block;
+}
+.header-button{
+    color: #0E0E0E;
+        /* P 16 */
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: 0.03em;
+        min-width: 128px;
+            height: 44px;
+            border-radius: 5px;
+            background: #FFEB38;
+            margin-left: auto;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.page-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+display: flex;
+align-items: center;
+gap: 40px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 84px;
+}
+/* .menu-list-item:not(:last-child){
+    margin-right: 40px;
+/* } */ 
+/* інший варіант коли гап не можна юзати */
+.hero-text{
+color: #FFF;
+    text-align: center;
+    /* P 16 */
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    margin-bottom: 14px;
+}
+.hero-text-part{
+color: #FFEB38;
+    /* P 16 Bold */
+    font-weight: 700;
+}
+.hero-title{
+color: #FFF;
+    /* Header Title 70 */
+    font-size: 70px;
+    line-height: 1.28;
+    /* 89.95px */
+    letter-spacing: 0.03em;
+    max-width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+}
+.hero-desc{
+color: #FFF;
+    text-align: center;
+    /* P 16 */
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.hero-button{
+color: #202020;
+    text-align: center;
+    /* P 16 */
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.03em;
+   min-width: 181px;
+    height: 48px;
+    border-radius: 5px;
+        background: #FFF;
+        border: none;
+        cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+background: #FFEB38;
+}
+.hero{
+    background-image: linear-gradient(180deg, rgba(14, 14, 14, 0.85) 99.73%, rgba(14, 14, 14, 0.85) 99.74%), url(../images/austindistel.jpg);
+padding-top: 187px;
+padding-bottom: 190px;
+background-size: cover;
+background-repeat: no-repeat;
+max-width: 1440px;
+margin: 0 auto;
+}
+.hero-list{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
